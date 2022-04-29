@@ -1,0 +1,236 @@
+@font-face {
+    font-family: MetSans;
+    src: url(TheMetSans-Light.woff2);
+}
+@font-face {
+    font-family: MetSerif;
+    src: url(The\ Met\ Serif\ Web-Roman.ttf);
+}
+.menu li{
+    display: inline;
+    padding: 15px;
+    justify-content: center;
+    color: #333333;
+    font-size: 20px;
+}
+
+.contato a{
+    text-decoration: none;
+    margin-top: 15cm;
+    color:black;
+}
+.menu a{
+    text-decoration: none;
+}
+
+
+.menu a li:hover{
+    color:#E4002B ;
+}
+
+.center{
+    text-align: center;
+    margin: 0.4cm;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.4cm;
+}
+
+.containercontato{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'MetSams';
+}
+
+.containerindex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tmlogo{
+height: 50px;
+width: 50px;
+margin-top: 1cm;
+padding-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.menu a li:hover{
+    color: grey ;
+}
+
+/* ESTILOS DA PÁGINA INDEX */
+.index{    background-color: #E4002B; 
+    margin: 2cm;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'MetSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.borda{
+    background-color: #F2F2F2;
+    padding-top: 0.5cm;
+}
+.br-200{
+    border-radius: 50%;
+}
+.titulointro{
+    font-size: 65px;
+    font-family: 'MetSerif';
+    color: #333333;
+    padding-bottom: 0.2cm;
+}
+.intro{
+    margin-bottom: 2.5cm;
+    margin-left: 2.5cm;
+    margin-right: 2.5cm;
+}
+.video{
+    margin: 1.5cm;
+    padding-bottom: 2cm;
+}
+.titulovideo{
+    font-size: 45px;
+    color:#333333;
+    font-family: 'MetSerif';
+    margin-top: 1.5cm;
+    padding-bottom: 0.5cm;
+}
+
+
+
+/* ESTILOS DA PÁGINA RENASCENTISMO */
+
+ .renascentismo{
+    background-color: #55efc4; 
+    margin: 2cm;   
+    font-family: 'MetSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;  
+}
+    .introrenascentismo{ 
+     color: #e17055; 
+     font-size: 50px; 
+     font-family: 'MetSerif';
+     margin-left: 2.5cm;
+     margin-right: 2.5cm;
+     margin-top: 1cm;
+     margin-bottom: 1cm;
+
+    }
+    .subtitulorenascentismo{
+     color: #3867d6;       
+     font-size: 35px;
+    }
+    .espaço{
+        margin-top: 1.5cm;
+        margin-bottom: 1cm;
+    }
+
+    .textovenus {
+    text-align: justify;
+    font-size: larger;
+    color: #333333;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+    }
+    .textoatenas {
+        text-align: justify;
+        font-size: larger;
+        color: #333333;
+        margin-left: 2cm;
+        margin-right: 2cm;
+        margin-bottom: 2cm;
+        margin-top: 1cm;
+        padding-bottom: 1cm;
+        }
+
+    .ajuste{
+        margin-top: -2cm;
+    }
+/* ESTILOS DA PÁGINA ROCOCÓ */
+
+/* ESTILOS DA PÁGINA MODERNISMO */
+
+.modernismo{
+    background-color: #778ca3; 
+    margin: 2cm; 
+    font-family: 'MetSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center; 
+}
+
+.intromodernismo{ 
+    color: #574b90; 
+    font-size: 50px; 
+    font-family: 'MetSerif';
+     margin-left: 2.5cm;
+     margin-right: 2.5cm;
+     margin-top: 1cm;
+     margin-bottom: 1cm;
+
+}
+.tituloobras{
+    color: black; 
+    font-size: 35px; 
+}
+.obramodernismo {
+text-align: center;
+}
+
+.textomodernismo {
+    text-align: justify;
+    font-size: larger;
+    color: #333333;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 2cm;
+    margin-top: 1cm;}
+
+.textopersistencia{
+    text-align: justify;
+    font-size: larger;
+    color: #333333;
+    margin-right: 2cm;
+    margin-left: 2cm;
+    margin-top: 1cm;
+    padding-bottom: 1cm;
+    }
+
+    /* Contato */
+   
+    .contact li{
+        display: inline;
+        padding: 4px;
+        color: black;
+        font-size: 20px;  
+    }
+    
+    .contact a{
+        text-decoration: none;
+    }
+    
+    
+    .titulocontato{
+        margin-top: 1cm;
+        margin-bottom: 1cm;
+    }
+
+    .containercontatos{
+        margin: 2cm;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        font-family: 'MetSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    }
+
+    .divisaocontato{
+        margin: 3cm;
+    }

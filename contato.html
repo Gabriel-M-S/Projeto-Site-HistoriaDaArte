@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+    <body class ="index">
+        <div class="borda">
+        <ul class="menu"> 
+         <a href="index.html"><li>Home</li></a>   
+         <a href="renascentismo.html"><li>Renascentismo</li></a>
+         <a href="barroco.html"><li>Barroco</li></a> 
+         <a href="rococo.html"><li>Rococó</li></a>
+         <a href="modernismo.html"><li>Modernismo</li></a> 
+        </ul>
+        <div class="containercontatos">
+        <div class="divisaocontato">
+        <h2 class="titulocontato"><b>Entre em contato preenchendo os campos</b></h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" onkeyup='validaNome()'>
+            <div id="txtNome"></div>
+            <br>
+            <label for="nome">E-mail:</label>
+            <input type="email" id="email" onkeyup='validaEmail()''>
+            <div id="txtEmail"></div>
+            <br>
+            <label for="nome">Assunto:</label>
+            <br>
+            <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"> </textarea>
+            <div id = "txtAssunto"></div>
+            <br>
+            <button>Enviar</button>
+        </form>  
+       </div>
+        <div class="divisaocontatod">
+            <h2 class="titulocontato"><b>Endereço</b></h2>
+            <p>Rua Queriqueri, 199</p>
+            <p>São Paulo - SP</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.6801184228375!2d-46.51889478451586!3d-23.615802469491264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5d5618ff26fd%3A0xf08bb37e25622581!2sR.%20Queriqueri%2C%20199%20-%20Vila%20Sapopemba%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003980-100!5e0!3m2!1spt-BR!2sbr!4v1644513278539!5m2!1spt-BR!2sbr" 
+            idth="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" id="mapa" onmousemove="mapaZoom()" onmouseout="mapaNormal()"></iframe>    
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <a href="https://www.facebook.com/" target="_blank">
+        <img class="tmlogo" src="assets/imgs/facebook.png" alt="Logotipo do Facebook"></a>
+        <a href="https://www.linkedin.com/" target="_blank">
+        <img class="tmlogo" src="assets/imgs/linkedin.png" alt="Logotipo do Linkedin"></a>
+        <a href="https://www.instagram.com/" target="_blank">
+        <img class="tmlogo" src="assets/imgs/instagram.png" alt="Logotipo do Instagram"></a>
+    </div>
+    
+    <div class="contato">
+        <a href="contato.html"><b>Contato</b></a>
+    </div>
+    <footer>
+    <p class="center">
+        <b>Todos os direitos reservados: Gabriel Marques &copy;</b>
+    </p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
